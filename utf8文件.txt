@@ -1,0 +1,3 @@
+我是utf8 file 呵呵 diff
+
+git commit --amend 撤销commit
