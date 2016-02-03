@@ -23,4 +23,4 @@ for(int i=0 ; i < 5 ; i++)
 表情内容可以在[http://www.emoji-cheat-sheet.com/](http://www.emoji-cheat-sheet.com/)里找到
 
 ##图片
-直接在网页上拖图进去
+直接在网页上拖图进去，当然用图床更好
