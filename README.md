@@ -1,4 +1,5 @@
-#github自有的markdown
+#渣渣学github的自我小测试和笔记，笔记[戳这里](https://github.com/hanyuguang/helloworld/blob/master/GitNote.md)
+下面是github自有的markdown，也是笔记来滴
 
 ##任务列表
 - [X] 编写代码
