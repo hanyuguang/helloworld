@@ -19,13 +19,22 @@
 ----
 
 ##经验
+###别名
+	git config --global alias.st status 
+之后打`git st`即代表`git status`,常用的还有以下三个
+
+	git config --global alias.co checkout
+	git config --global alias.ci commit
+	git config --global alias.br branch
+
+
 ###Http和SSH
 - 使用 HTTP 的话Clone时不需要GitHub 帐号，而SSH的话需要帐号而且要管理者上传 SSH 密钥才能访问项目。  
 - 而如果用https的话每次push提交都要输账号密码，SSH则不需要多次输入。  
 - SSH使用：[生成SSH-Key](https://help.github.com/articles/generating-an-ssh-key/)后，发给Github项目负责人，让他增加你的SSHkey就可以提交了。
 
-###少用push，多用fetch和merge
-push是下载并自动合并，而fetch是下载，但不合并，此时可以先`diff`一下再决定是否合并
+###少用pull，多用fetch和merge
+pull是下载并自动合并，而fetch是下载，但不合并，此时可以先`diff`一下再决定是否合并
 
 ----
 
